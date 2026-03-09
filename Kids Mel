@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<title>Kids Mel - Adoçando seu estilo de Vida</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Kids Mel 🍬</h1>
+<p>Adoçando seu estilo de Vida</p>
+
+<button onclick="abrirCarrinho()">
+Carrinho (<span id="cartCount">0</span>)
+</button>
+
+</header>
+
+<section id="produtos" class="produtos"></section>
+
+<div class="carrinho" id="carrinho">
+
+<h2>Seu Carrinho</h2>
+
+<ul id="listaCarrinho"></ul>
+
+<p>Total: R$ <span id="total">0</span></p>
+
+<button onclick="enviarWhatsApp()">Finalizar Pedido no WhatsApp</button>
+
+<button onclick="fecharCarrinho()">Fechar</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
